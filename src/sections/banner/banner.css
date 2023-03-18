@@ -1,0 +1,32 @@
+.ms-banner {
+	padding: 0px 0px 40px;
+}
+.ms_banner_img {
+	text-align: center;
+	max-width: 511px;
+	width: 100%;
+	float: left;
+}
+.ms_banner_text {
+	width: calc(100% - 511px);
+	float: left;
+	padding-top: 135px;
+}
+.ms_banner_text .ms_banner_btn .ms_btn {
+	height: 40px;
+	width: 100%;
+	margin-right: 25px;
+	line-height: 45px;
+	margin-left: 0;
+	max-width: 150px;
+	font-weight: 600;
+}
+.ms_banner_text h1 {
+	font-size: 45px;
+	font-weight: bold;
+	color: #fff;
+}
+.ms_banner_text p {
+	margin: 15px 0px 40px;
+	line-height: 30px;
+}

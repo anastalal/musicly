@@ -1,0 +1,214 @@
+.ms_weekly_wrapper {
+	padding-top: 50px;
+}
+.ms_weekly_wrapper .ms_heading {
+	margin-bottom: 10px;
+}
+.ms_weekly_box {
+	float: left;
+	width: 100%;
+	padding: 20px 0px 20px 0px;
+	position: relative;
+}
+.weekly_left {
+	float: left;
+}
+.weekly_right {
+	float: right;
+	position: relative;
+}
+.weekly_left span.w_top_no {
+	font-size: 50px;
+	font-weight: bold;
+	color: #dedede;
+	display: inline-block;
+	float: left;
+	width: 50px;
+	line-height: 50px;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+}
+.w_top_song {
+	float: left;
+	padding-left: 40px;
+}
+.w_top_song .w_tp_song_img {
+	width: 50px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.w_top_song .w_tp_song_name {
+	width: calc(100% - 50px);
+	float: left;
+	padding-left: 20px;
+}
+.w_top_song .w_tp_song_img img {
+	border-radius: 5px;
+	max-width: 100%;
+}
+.w_song_time {
+	padding-right: 40px;
+	color: #fff;
+}
+.weekly_right .ms_more_icon {
+	top: -10%;
+	right: 0;
+}
+.ms_divider {
+	float: left;
+	width: 100%;
+	border: 0;
+	height: 2px;
+	background: #252b4d;
+	background-image: -webkit-linear-gradient(left, #252b4d, #252b4d, #161a2d);
+	background-image: -moz-linear-gradient(left, #252b4d, #252b4d, #161a2d);
+	background-image: -ms-linear-gradient(left, #252b4d, #252b4d, #161a2d);
+	background-image: -o-linear-gradient(left, #252b4d, #252b4d, #161a2d);
+}
+.ms_weekly_box ul.more_option.open_option {
+	opacity: 1;
+}
+.ms_weekly_box ul.more_option {
+	right: 30px;
+	top: 12px;
+}
+.w_top_song .ms_song_overlay {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.7);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.ms_play_icon {
+	position: absolute;
+	top: -40%;
+	left: 50%;
+	cursor: pointer;
+	width: 30px;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.ms_weekly_box:hover .w_top_song .ms_song_overlay,
+.ms_weekly_box.ms_active_play .w_top_song .ms_song_overlay,
+.ms_release_box:hover .w_top_song .ms_song_overlay,
+.ms_release_box.ms_active_play .w_top_song .ms_song_overlay {
+	opacity: 1;
+}
+.ms_weekly_box:hover .ms_play_icon,
+.ms_weekly_box.ms_active_play .ms_play_icon,
+.ms_release_box:hover .ms_play_icon,
+.ms_release_box.ms_active_play .ms_play_icon {
+	top: 50%;
+}
+.ms_weekly_box:hover .w_tp_song_name h3 a,
+.ms_weekly_box.ms_active_play .w_tp_song_name h3 a,
+.ms_release_box:hover .w_tp_song_name h3 a,
+.ms_release_box.ms_active_play .w_tp_song_name h3 a {
+	color: #3bc8e7;
+}
+.ms_weekly_box:hover .weekly_left span.w_top_no,
+.ms_weekly_box.ms_active_play .weekly_left span.w_top_no {
+	color: #3bc8e7;
+}
+.ms_bars {
+	height: 20px;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	width: 24px;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+.bar {
+	background: #fff;
+	bottom: 1px;
+	height: 3px;
+	position: absolute;
+	width: 2px;
+	animation: sound 0ms -800ms linear infinite alternate;
+}
+@keyframes sound {
+	0% {
+		opacity: .35;
+		height: 3px;
+	}
+	100% {
+		opacity: 1;
+		height: 28px;
+	}
+}
+.bar:nth-child(1) {
+	left: 1px;
+	animation-duration: 474ms;
+}
+.bar:nth-child(2) {
+	left: 5px;
+	animation-duration: 433ms;
+}
+.bar:nth-child(3) {
+	left: 9px;
+	animation-duration: 407ms;
+}
+.bar:nth-child(4) {
+	left: 13px;
+	animation-duration: 458ms;
+}
+.bar:nth-child(5) {
+	left: 17px;
+	animation-duration: 400ms;
+}
+.bar:nth-child(6) {
+	left: 21px;
+	animation-duration: 427ms;
+}
+.bar:nth-child(7) {
+	left: 25px;
+	animation-duration: 441ms;
+}
+.bar:nth-child(8) {
+	left: 29px;
+	animation-duration: 419ms;
+}
+.bar:nth-child(9) {
+	left: 33px;
+	animation-duration: 487ms;
+}
+.bar:nth-child(10) {
+	left: 37px;
+	animation-duration: 442ms;
+}
+/*====Featured Artists Css Start====*/
+.ms_featured_slider,
+.ms_releases_wrapper {
+	position: relative;
+	margin: 40px 0px 0px 0px;
+}
+/*====Advertisment Css Start====*/
+.ms_advr_wrapper {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.ms_advr_wrapper.ms_advr2 {
+	margin: 31px 0px 58px;
+}

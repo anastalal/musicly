@@ -1,0 +1,128 @@
+.ms_releases_wrapper .slider_nav_prev,
+.ms_releases_wrapper .slider_nav_next {
+	top: 91%;
+	width: 14px;
+	height: 20px;
+	margin-top: -22px;
+	background-size: 7px 12px;
+	right: -40px;
+}
+.ms_featured_slider,
+.ms_releases_wrapper {
+	position: relative;
+	margin: 40px 0px 0px 0px;
+}
+.ms_releases_wrapper .w_top_song {
+	padding-left: 0px;
+	padding-left: 20px;
+	position: relative;
+}
+.ms_releases_wrapper {
+	margin-top: 50px;
+	margin-bottom: 9px;
+	display: inline-block;
+	width: 100%;
+}
+.ms_release_slider.swiper-container {
+	padding-top: 0px;
+}
+.ms_releases_wrapper .ms_divider {
+	height: 2px;
+	-webkit-border-radius: 50%;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 10px rgba(22, 26, 45, 0.27);
+	background-image: none;
+	background: rgba(37, 43, 77, 0.75);
+    background: rgba(37, 43, 77, 0.75);
+    position: absolute;
+    z-index: 0;
+    /* opacity: 3.2; */
+    /* bottom: 100%; */
+    width: 100%;
+    bottom: 47%;
+}
+.ms_divider {
+	float: left;
+	width: 100%;
+	border: 0;
+	height: 2px;
+	background: #252b4d;
+	background-image: -webkit-linear-gradient(left, #252b4d, #252b4d, #161a2d);
+	background-image: -moz-linear-gradient(left, #252b4d, #252b4d, #161a2d);
+	background-image: -ms-linear-gradient(left, #252b4d, #252b4d, #161a2d);
+	background-image: -o-linear-gradient(left, #252b4d, #252b4d, #161a2d);
+}
+.ms_release_box {
+	padding-top: 26px;
+}
+.slider_dot {
+	position: absolute;
+	content: "";
+	width: 10px;
+	height: 10px;
+	background-color: #3bc8e7;
+	top: -26px;
+	left: 38px;
+	border-radius: 100%;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+}
+.slider_dot:after {
+	position: absolute;
+	content: "";
+	width: 6px;
+	height: 6px;
+	background-color: #14182a;
+	top: 2px;
+	left: 2px;
+	border-radius: 100%;
+}
+.ms_releases_wrapper .swiper-button-next,
+.ms_releases_wrapper .swiper-button-prev {
+	top: 91%;
+	width: 14px;
+	height: 20px;
+	margin-top: -22px;
+	background-size: 7px 12px;
+	right: 0;
+}
+.swiper-slide .swiper-slide-active .slider_dot,
+.ms_release_box:hover .slider_dot {
+	box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+.ms_releases_wrapper .swiper-slide .swiper-slide-active .w_top_song .w_tp_song_name h3 a {
+	color: #3bc8e7;
+}
+.ms_releases_wrapper .swiper-slide .swiper-slide-active .w_top_song .ms_song_overlay {
+	opacity: 1;
+}
+.ms_releases_wrapper .swiper-slide .swiper-slide-active .ms_play_icon img {
+	opacity: 0;
+}
+.ms_releases_wrapper .swiper-slide .swiper-slide-active .ms_play_icon {
+	top: 50%;
+}
+.ms_releases_wrapper .swiper-slide .swiper-slide-active .ms_play_icon:after {
+	position: absolute;
+	content: url(../../images/svg/sound.svg);
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	width: 25px;
+	height: 25px;
+}
+.ms_release_box:hover .w_top_song .ms_song_overlay,
+.ms_release_box.ms_active_play .w_top_song .ms_song_overlay {
+	opacity: 1;
+}
+.ms_release_box:hover .ms_play_icon,
+.ms_release_box.ms_active_play .ms_play_icon {
+	top: 50%;
+}
+.ms_release_box:hover .w_tp_song_name h3 a,
+.ms_release_box.ms_active_play .w_tp_song_name h3 a {
+	color: #3bc8e7;
+}
