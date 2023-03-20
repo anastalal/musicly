@@ -62,8 +62,8 @@ function Recently(props){
                         slidesPerView: 1,
                         spaceBetween: 15,
                     },
-                    375: {
-                      //  width: 375,
+                    275: {
+                        //  width: 375,
                         slidesPerView: 1,
                         spaceBetween: 15,
                     }
